@@ -1,24 +1,59 @@
-<!-- 
-Online HTML, CSS and JavaScript editor to run code online.
--->
-<!DOCTYPE html>
-<html lang="en">
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Browser</title>
-</head>
+body {
+  margin: 10px;
+    width: 100%;
+    height: 100%;
+  background-color: black;
+}
+          
+.card {
+ width: 190px;
+ height: 254px;
+ 
+ background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+ border-radius: 20px;
+ transition: all .3s;
+ box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+    position: absolute;
+ 
 
-<body>
-<div class="card">
-  <div class="card2">
-    <div class="card-details">
-<p class="text-title">Lennart Jahn</p>
+  
+}
 
-      <p class="text-body">In Development</p>
-</div>
-  </div>
-</div>
-</html>
+.card2 {
+ width: 190px;
+ height: 254px;
+ transform: scale(0.98);
+ border-radius: 20px;
+ background-color: #1a1a1a;
+  
+  
+}
+
+
+.text-body {
+ color: Grey;
+  
+}
+
+/*Text*/
+.text-title {
+ font-size: 1.5em;
+ height: 0px;
+  
+ font-weight: bold;
+ font-family: 'Nunito', sans-serif;
+}
+
+.card-details {
+ color: White;
+ height: 100%;
+ gap: ;
+ display: grid;
+ place-content: center;
+ font-family: 'Nunito', sans-serif;
+}
